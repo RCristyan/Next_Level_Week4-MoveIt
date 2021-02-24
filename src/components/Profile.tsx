@@ -1,6 +1,8 @@
+import styles from '../style/components/Profile.module.css';
+
 export function Profile(){
     return(
-        <div>
+        <div className={ styles.profileContainer }>
             <img src="https://github.com/RCristyan.png" alt="Renan Cristyan"/>
             <div>
                 <strong>Renan Cristyan</strong>
