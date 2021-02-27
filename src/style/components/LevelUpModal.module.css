@@ -23,7 +23,7 @@
 }
 
 .container header{
-    font-size: 8.75rem;
+    font-size: 9.75rem;
     font-weight: 600;
     color: var(--blue);
     background: url('/icons/levelup.svg');
@@ -37,7 +37,7 @@
 
 .container p{
     font-size: 1.25rem;
-    color: var(--exit);
+    color: var(--text);
     margin-top: 0.25rem;
 }
 
@@ -47,4 +47,5 @@
     top: 0.5rem;
     background: transparent;
     border: 0;
+    font-size: 0;
 }
